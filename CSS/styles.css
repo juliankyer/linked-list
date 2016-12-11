@@ -1,0 +1,61 @@
+/*#455A64 dark background
+#CFD8DC light background
+#FFFFFF light text
+#FFC107 *yellow button
+#FFD773 button hover
+#607D8B link border
+#455A64 link title/name
+#455A64 "read"
+#CFD8DC link division bar
+#607D8B website txt
+#F2F4F4 link underline color
+#455A64 hover text color
+#FFC107 hover link underline color
+#F2F4F4 when read background
+#F05A28 "read"
+#CFD8DC website underline*/
+
+html, body {
+  font-family: "Open Sans";
+}
+.main-side {
+  background-color: #455A64;
+  height: 230px;
+  width: 414px;
+  text-align: center;
+  display: inline-block;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-size: 30px;
+  margin: 20px 0px 5px 0px;
+  padding: 5px;
+  font-family: "Open Sans";
+  font-weight: 800;
+  /*not sure bold 800 is being targeted correctly*/
+}
+
+input {
+  margin: 10px;
+  text-align: center;
+  width: 280px;
+  height: 30px;
+}
+
+button {
+  display: block;
+  text-align: center;
+  width: 280px;
+  height: 30px;
+  background-color: #FFC107;
+  border: none;
+  text-decoration: none;
+  margin: 10px auto;
+}
+
+.link-column {
+  width: 414px;
+  height: 100%;
+  background-color: #CFD8DC;
+}
