@@ -1,46 +1,23 @@
-/*#455A64 dark background
-#CFD8DC light background
-#FFFFFF light text
-#FFC107 *yellow button
-#FFD773 button hover
-#607D8B link border
-#455A64 link title/name
-#455A64 "read"
-#CFD8DC link division bar
-#607D8B website txt
-#F2F4F4 link underline color
-#455A64 hover text color
-#FFC107 hover link underline color
-#F2F4F4 when read background
-#F05A28 "read"
-#CFD8DC website underline*/
-
-html, body {
+body {
+  display: block;
   font-family: "Open Sans";
-}
-.main-side {
-  background-color: #455A64;
-  height: 230px;
-  width: 414px;
+  margin: auto;
   text-align: center;
-  display: inline-block;
+  position: relative;
 }
 
 h1 {
   color: #FFFFFF;
   font-size: 30px;
-  margin: 20px 0px 5px 0px;
-  padding: 5px;
-  font-family: "Open Sans";
+  padding: 20px;
   font-weight: 800;
 }
-
 input {
+  display: inline-block;
   margin: 10px;
   text-align: center;
   width: 280px;
   height: 30px;
-  font-size: 20px;
 }
 
 button {
@@ -51,7 +28,7 @@ button {
   background-color: #FFC107;
   border: none;
   text-decoration: none;
-  margin: 10px auto;
+  margin: auto;
   font-size: 20px;
   color: #FFFFFF;
 }
@@ -59,11 +36,18 @@ button {
 button:hover {
   background-color: #FFD773;
 }
+.main-side {
+  background-color: #455A64;
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
 
 .link-column {
-  width: 414px;
-  height: 100%;
+  width: 100%;
+  height: 50%;
   background-color: #CFD8DC;
+  margin: auto;
 }
 
 .link-tab {
@@ -71,15 +55,15 @@ button:hover {
   width: 340px;
   background-color: white;
   border: 2px solid #607D8B;
-  margin: 20px auto;
+  margin: auto;
 
 }
 
 h4 {
   color: #455A64;
   font-size: 25px;
-  padding: 2px;
-  margin: 15px 30px 10px 10px;
+  padding: 10px;
+  margin: auto;
   border-bottom: 2px solid #CFD8DC;
   padding-bottom: 5px;
 }
@@ -98,10 +82,9 @@ a:hover {
 }
 
 #button-box {
-  padding: 2px;
-  margin: 15px 30px 10px 10px;
+  margin: 40px 30px 10px 10px;
   border-top: 2px solid #CFD8DC;
-  padding-bottom: 5px;
+
 }
 
 #link-read {
@@ -111,3 +94,28 @@ a:hover {
 #link-delete {
   float: right;
 }
+
+
+@media screen and (max-width: 300px) {
+  button{
+    margin: 5px 0;
+    width: 100%;
+  }
+
+
+/*#455A64 dark background
+#CFD8DC light background
+#FFFFFF light text
+#FFC107 *yellow button
+#FFD773 button hover
+#607D8B link border
+#455A64 link title/name
+#455A64 "read"
+#CFD8DC link division bar
+#607D8B website txt
+#F2F4F4 link underline color
+#455A64 hover text color
+#FFC107 hover link underline color
+#F2F4F4 when read background
+#F05A28 "read"
+#CFD8DC website underline*/
