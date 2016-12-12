@@ -13,7 +13,6 @@ h1 {
   font-weight: 800;
 }
 input {
-  display: inline-block;
   margin: 10px;
   text-align: center;
   width: 280px;
@@ -37,15 +36,16 @@ button:hover {
   background-color: #FFD773;
 }
 .main-side {
+  float: left;
   background-color: #455A64;
-  width: 100%;
-  height: 50%;
-  position: relative;
+  width: 50%;
+  height: 100%;
 }
 
 .link-column {
-  width: 100%;
-  height: 50%;
+  float: right;
+  width: 50%;
+  height: 100%;
   background-color: #CFD8DC;
   margin: auto;
 }
@@ -96,11 +96,13 @@ a:hover {
 }
 
 
-@media screen and (max-width: 300px) {
-  button{
-    margin: 5px 0;
+@media screen and (max-width: 650px) {
+  .main-side, .link-column {
+    margin: auto;
     width: 100%;
+    height: 50%;
   }
+
 
 
 /*#455A64 dark background
