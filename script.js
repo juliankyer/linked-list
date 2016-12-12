@@ -1,7 +1,17 @@
 $('#user-enter-button').on('click', function(){
    newCard();
-
 });
+
+$('.link-column').on('click', '#link-read', function(){
+  $(this).closest('.link-tab').toggleClass('read')
+});
+
+$('.link-column').on('click', '#link-delete', function(){
+  $(this).closest('.link-tab').remove()
+});
+
+
+
 
 
 function newCard (){
