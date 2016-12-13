@@ -1,109 +1,65 @@
+a {
+  border-bottom: 2px solid #F2F4F4;
+  color: #607D8B;
+  margin: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom-color: #FFC107;
+  color: #455A64;
+}
 body {
   display: block;
   font-family: "Open Sans";
 }
 
-
-h1 {
-  color: #FFFFFF;
-  font-size: 30px;
-  padding: 20px 5px 5px 5px;
-  font-weight: 800;
-  text-align: center;
-}
-input {
-  margin: 20px auto 15px;
-  text-align: center;
-  width: 280px;
-  height: 30px;
-  display: block;
-  font-size: 20px;
-}
-
 button {
-  display: block;
-  text-align: center;
-  width: 280px;
-  height: 30px;
   background-color: #FFC107;
   border: none;
-  text-decoration: none;
-  margin: 20px auto;
-  font-size: 20px;
   color: #FFFFFF;
+  display: block;
+  font-size: 20px;
+  height: 30px;
+  margin: 20px auto;
+  text-align: center;
+  text-decoration: none;
+  width: 280px;
 }
 
 button:hover {
   background-color: #FFD773;
 }
 
-.main-side {
-  background-color: #455A64;
-  height: 225px;
-}
-
-.link-column {
-  height: 100%;
-  width: 100%;
-  background-color: #CFD8DC;
-  position: absolute;
-  margin: auto;
+h1 {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 20px 5px 5px 5px;
+  text-align: center;
 }
 
 h4 {
-  color: #455A64;
-  font-size: 25px;
-  padding: 10px;
-  margin: auto;
   border-bottom: 2px solid #CFD8DC;
-  padding-bottom: 5px;
-
-}
-
-a {
-  color: #607D8B;
-  text-decoration: none;
-  border-bottom: 2px solid #F2F4F4;
-  margin: 10px;
-}
-
-a:hover {
-  color: #455A64;
-  border-bottom-color: #FFC107;
-}
-
-.link-tab {
-  height: 120px;
-  width: 300px;
-  background-color: white;
-  border: 2px solid #607D8B;
-  margin: 20px auto;
-  position: relative;
-  text-align: left;
-}
-
-.read {
-  background-color: #F2F4F4;
-  /*^^^^this works on click*/
-  /*color: #F05A28;*/
-  /*^^^^needs to hit #link-read on click */
-  /*border-bottom: #CFD8DC;*/
-  /*^^^^^^needs to hit #link-url on click*/
-}
-
-h4 {
   color: #455A64;
   font-size: 20px;
+  font-weight: bold;
   margin: 8px 15px 10px;
   padding: 5px;
-  border-bottom: 2px solid #CFD8DC;
-  font-weight: bold;
 }
 
+input {
+  display: block;
+  font-size: 20px;
+  height: 30px;
+  margin: 20px auto 15px;
+  text-align: center;
+  width: 280px;
+}
 
 #button-box {
-  margin: 15px;
   border-top: 2px solid #CFD8DC;
+  margin: 15px;
 }
 
 #link-url {
@@ -119,6 +75,33 @@ h4 {
   float: right;
 }
 
+.link-column {
+  background-color: #CFD8DC;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  width: 100%;
+}
+
+
+.link-tab {
+  background-color: white;
+  border: 2px solid #607D8B;
+  height: 120px;
+  margin: 20px auto;
+  width: 300px;
+  /*position: relative;*/
+  text-align: center;
+}
+
+.main-side {
+  background-color: #455A64;
+  height: 225px;
+}
+
+.read {
+  background-color: #F2F4F4;
+}
 
 
   @media screen and (min-width: 750px) {
@@ -130,14 +113,21 @@ h4 {
 
     .link-column {
       display: inline-block;
-      width: 60%;
       float: right;
+      width: 60%;
     }
 
     .link-tab {
       width: 75%;
     }
   }
+
+  /*^^^^this works on click*/
+  /*color: #F05A28;*/
+  /*^^^^needs to hit #link-read on click */
+  /*border-bottom: #CFD8DC;*/
+  /*^^^^^^needs to hit #link-url on click*/
+
 
 
 /*#455A64 dark background
