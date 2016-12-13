@@ -83,7 +83,12 @@ a:hover {
 }
 
 .read {
-  background-color: pink;
+  background-color: #F2F4F4;
+  /*^^^^this works on click*/
+  /*color: #F05A28;*/
+  /*^^^^needs to hit #link-read on click */
+  /*border-bottom: #CFD8DC;*/
+  /*^^^^^^needs to hit #link-url on click*/
 }
 
 h4 {
@@ -114,9 +119,6 @@ h4 {
   float: right;
 }
 
-.when-read {
-  background-color: #F2F4F4;
-}
 
 
   @media screen and (min-width: 750px) {
