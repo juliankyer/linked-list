@@ -10,22 +10,27 @@
   <body>
     <section class="main-side">
       <h1>Linked<img src="images/linked-list-logo.svg" alt="linked list logo" height="23px">List</h1>
-      <input type="text" placeholder="Website Title">
-      <input type="url" placeholder="Website URL">
-      <button>Enter</button>
+      <input id="user-title-input" type="text" placeholder="Website Title">
+      <input id="user-url-input" type="url" placeholder="Website URL">
+      <button id="user-enter-button" disabled>Enter</button>
     </section>
     <section class="link-column">
-      <article class="link-tab">
-        <h4>The Website Title</h4>
-        <a href="#" id="link-url">www.thewebsiteurl.com</a>
-        <div id="button-box">
-          <a href="#" id="link-read">Read</a>
-          <a href="#" id="link-delete">Delete</a>
-      </div>
-      </article>
     </section>
   </body>
-  <script src="index.js">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="path/to/your/jquery.min.js"><\/script>')</script>
+  <script src="script.js"></script>
   </script>
 </html>
+
+
+
+<!-- We didn't need this anymore, but it's here just in case!
+<article class="link-tab">
+<h4>The Website Title</h4>
+<a href="#" id="link-url">www.thewebsiteurl.com</a>
+<div id="button-box">
+<a href="#" id="link-read">Read</a>
+<a href="#" id="link-delete">Delete</a>
+</div>
+</article> -->
