@@ -25,11 +25,11 @@ function newCard (){
   var siteUrl = $('#user-url-input').val();
   $('.link-column').append(
     `<article class="link-tab">
-    <h4>`+siteTitle + `</h4>
-    <a href="#" id="link-url">`+siteUrl +`</a>
-    <div id="button-box">
-      <a href="#" id="link-read">Read</a>
-      <a href="#" id="link-delete">Delete</a>
-  </div>
-  </article>`)
+      <h4>`+siteTitle + `</h4>
+      <a href="" target="_blank" id="link-url">`+siteUrl +`</a>
+      <div id="button-box">
+        <a href="#" id="link-read">Read</a>
+        <a href="#" id="link-delete">Delete</a>
+      </div>
+    </article>`)
 };
