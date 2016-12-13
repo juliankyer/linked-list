@@ -1,9 +1,6 @@
 body {
   display: block;
   font-family: "Open Sans";
-  /*margin: auto;*/
-  /*text-align: center;*/
-  /*position: relative;*/
 }
 
 
@@ -57,7 +54,6 @@ a {
   text-decoration: none;
   border-bottom: 2px solid #F2F4F4;
   margin: 10px;
-  /*font-size: 20px;*/
 }
 
 a:hover {
@@ -73,7 +69,6 @@ a:hover {
   margin: 20px auto;
   position: relative;
   text-align: left;
-
 }
 
 h4 {
@@ -94,7 +89,6 @@ h4 {
 #link-url {
   margin: auto 15px 15px;
   padding-top: 5px;
-  /*padding: 5px;*/
 }
 
 #link-read {
