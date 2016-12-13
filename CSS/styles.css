@@ -47,6 +47,30 @@ button:hover {
   width: 100%;
   background-color: #CFD8DC;
   position: absolute;
+  margin: auto;
+}
+
+.link-tab {
+  height: 150px;
+  width: 340px;
+  background-color: white;
+  border: 2px solid #607D8B;
+  margin: auto;
+
+}
+
+.read {
+  background-color: pink;
+}
+
+h4 {
+  color: #455A64;
+  font-size: 25px;
+  padding: 10px;
+  margin: auto;
+  border-bottom: 2px solid #CFD8DC;
+  padding-bottom: 5px;
+
 }
 
 a {
