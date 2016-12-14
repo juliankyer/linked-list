@@ -24,9 +24,9 @@ a {
   text-align: left;
 }
 
-/*a:hover {
+a:hover {
   border-bottom-color: #FFC107;
-  color: #455A64;*/
+  color: #455A64;
 }
 
 
@@ -101,7 +101,7 @@ h4 {
 
 .main-side {
   background-color: #455A64;
-  height: 320px;
+  height: 320px;  
 }
 
 
