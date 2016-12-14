@@ -4,7 +4,7 @@ $('#user-enter-button').on('click', function(){
 });
 
 $('.link-column').on('click', '#link-read', function(){
-  $(this).closest('.link-tab').toggleClass('read');
+  $(this).closest('.link-tab').toggleClass('seen');
   $(this).toggleClass('read');
    countRead();
 });
