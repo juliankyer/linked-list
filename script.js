@@ -33,8 +33,8 @@ function newCard (){
       <h4>`+$siteTitle + `</h4>
       <a href=$siteUrl target="_blank" id="link-url">`+$siteUrl +`</a>
       <div id="button-box">
-        <input type="submit" value="Read" class="tab-button" id="link-read">
-        <input type="submit" value="Delete" class="tab-button" id="link-delete">
+          <button class="tab-button" id="link-read">Read</button>
+        <button class="tab-button" id="link-delete">Delete</button>
       </div>
     </article>`);
 }

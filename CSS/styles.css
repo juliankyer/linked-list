@@ -19,8 +19,9 @@ button {
 a {
   border-bottom: 2px solid #F2F4F4;
   color: #607D8B;
-  margin: 10px;
+  margin: 15px;
   text-decoration: none;
+  text-align: left;
 }
 
 /*a:hover {
@@ -67,10 +68,12 @@ h4 {
 #link-url {
   margin: auto 15px 15px;
   padding-top: 5px;
+  padding-left: 4px;
 }
 
 #link-read {
   float: left;
+
 }
 
 #link-delete {
@@ -103,21 +106,22 @@ h4 {
 
 
 .tab-button {
+  text-decoration: underline;
   background: none;
-  border: none;
-  text-decoration: underline #CFD8DC;
   color: #455A64;
-  cursor: pointer;
+  /*cursor: pointer; this only makes the mouse pointer
+   glove, it isn't necessary - if you really want it in, no worries! */
   width: 75px;
   height: 25px;
-  font-size: 20px;
-  margin: 0px;
+  font-size: 18px;
+  margin-top: 5px;
   padding: 0px;
 }
 
 .read {
   background-color: #F2F4F4;
   color: #F05A28;
+
 }
 
   @media screen and (min-width: 750px) {
