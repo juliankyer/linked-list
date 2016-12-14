@@ -3,7 +3,7 @@ body {
   font-family: "Open Sans";
 }
 
-button {
+.enter-button {
   background-color: #FFC107;
   border: none;
   color: #FFFFFF;
@@ -16,7 +16,7 @@ button {
   width: 280px;
 }
 
-a {
+.box-url {
   border-bottom: 2px solid #F2F4F4;
   color: #607D8B;
   margin: 15px;
@@ -24,13 +24,13 @@ a {
   text-align: left;
 }
 
-a:hover {
+.box-url:hover {
   border-bottom-color: #FFC107;
   color: #455A64;
 }
 
 
-button:hover {
+.enter-button:hover {
   background-color: #FFD773;
 }
 
@@ -71,14 +71,6 @@ h4 {
   padding-left: 4px;
 }
 
-#link-read {
-  float: left;
-
-}
-
-#link-delete {
-  float: right;
-}
 
 .link-column {
   background-color: #CFD8DC;
@@ -91,32 +83,42 @@ h4 {
 
 .link-tab {
   background-color: white;
-  border: 2px solid #607D8B;
   height: 120px;
   margin: 20px auto;
   width: 300px;
-  /*position: relative;*/
-  /*text-align: center;*/
 }
 
 .main-side {
   background-color: #455A64;
-  height: 320px;  
+  height: 320px;
 }
 
 
 .tab-button {
-  text-decoration: underline;
+  text-decoration: none;
+  border: none;
   background: none;
   color: #455A64;
   cursor: pointer;
-  width: 75px;
   height: 25px;
   font-size: 18px;
-  margin-top: 5px;
+  margin-top: 7px;
   padding: 0px;
 }
 
+.tab-button:hover {
+  border-bottom: 1px solid #FFC107;
+}
+
+#link-read {
+  float: left;
+
+}
+
+#link-delete {
+  float: right;
+  margin-right: 5px;
+}
 .seen {
   background-color: #F2F4F4;
 }
