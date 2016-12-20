@@ -30,8 +30,8 @@ function newCard() {
   var $siteUrl = $('#user-url-input').val();
   $('.link-column').append(
     `<article class="link-tab">
-      <h4>`+$siteTitle + `</h4>
-      <a href=$siteUrl target="_blank" id="link-url">`+$siteUrl +`</a>
+      <h4> ${$siteTitle} </h4>
+      <a href=${$siteUrl} target="_blank" id="link-url"> ${$siteUrl} </a>
       <div id="button-box">
           <button class="tab-button" id="link-read">Read</button>
         <button class="tab-button" id="link-delete">Delete</button>
